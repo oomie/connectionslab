@@ -1,1 +1,56 @@
-here
+
+.link {
+    text-decoration: none;
+    color:   #805255;
+    }
+    
+    .link:hover {
+    color:   #c07f84;
+    }
+    
+    .link:visited{
+      color:   #805255;
+    }
+     
+
+     body {
+      background-color: peachpuff;
+    }
+    
+    .header {
+      display: flex;
+      flex-direction:column;
+      align-content: center;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 10px 16px;
+      background: rgb(103, 71, 71);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: rgb(216, 153, 165);
+    }
+
+    .socials {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content:space-around ;
+      align-items: flex-end;
+    }
+    
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      color: rgb(103, 71, 71);;
+    }
+    .container {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    
