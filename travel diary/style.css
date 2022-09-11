@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body{
+background-color: lightblue;
+}
+
+.header {
+    display: flex;
+    flex-direction:column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 10px 16px;
+    background: rgb(227, 174, 234);
+    font-family: 'Indie Flower', cursive;
+    color: rgb(98, 49, 89);
+  }
+
+  .para{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+
+  }
+
+  .gridcontainer {
+    display: grid;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: center;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "pic1 pic2 pic3"
+    "para1 para2 para3"
+    "header header header";
+  }
+
+  .pic{
+    width: 60%;
+    padding: 20px;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  /* image slider styling */ 
+  .container{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    }
+    
+    .swiper{
+        width: 80%;
+        height: fit-content;
+    }
+    
+    .swiper-slide img{
+        width: 100%;
+    }
+    
+    .swiper .swiper-button-next, .swiper .swiper-button-prev {
+        color: #fff;
+    }
+    
+    .swiper .swiper-pagination-bullet-active{
+        background: #fff;
+    }
+
