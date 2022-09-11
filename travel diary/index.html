@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer> </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Toomie's Travel Diary </title>
+</head>
+<body>
+  <!-- header -->
+    <h1 class="header"> Toomie's Travel Diary</h1>
+    <h3 class="header">Documenting my summer travels...</h3>
+
+    <!-- subheader/instructions -->
+    <h4 class="para"> JULY - AUGUST 2022</h4>
+    <h5 class="para">Click on the images to reveal the location where I took them, hover over them for a surprise!</h5>
+
+    <!-- images and captions -->
+    <div class="gridcontainer">
+      <img src="images/1.jpg" class="pic , pic1" id="castle" alt="sleeping beauty castle">
+      <img src="images/6.jpg" class="pic , pic2" id="swiss" alt="pictures i took in switzerland"> 
+      <img src="images/8.jpg" class="pic , pic3" id="swiss2" alt="more pictures i took in switzerland"> 
+      <p class="para , para1"> Over the summer, my family and I went to Disneyland Paris! We watched the fireworks at the Sleeping Beauty Castle.</p>
+      <p class="para , para2"> These were taken in Montreux, Switzerland! The first image is of the Geneva Lake at sunset, and the second is on a mini train at a park!</p>
+      <p class="para , para3"> These were taken in Interlaken, Switzerland! The second image was taken by Lake Thun, one of the two lakes that run through Interlaken.</p>
+    </div>
+  
+    <h2 class="header"> Gallery </h2>
+ <!-- made this gallery with the help of a youtube tutorial and swiper.js-->
+    <!-- youtube video : https://www.youtube.com/watch?v=aRE2Zge1rUI  -->
+    <div class="container">
+      <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/7.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="images/8.jpg" alt=""></div>
+
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+  </div>
+  
+<footer>
+  <h3 class="para">Copyright © 2022 Toomie's Travel Diary. All rights reserved.</h3> 
+</footer>
+
+</body>
+</html>
