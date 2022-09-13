@@ -1,6 +1,7 @@
 ## Travel Diary
 ### Homework Week2 - Javascript interaction 
 Webpage link: https://oomie.github.io/connectionslab/traveldiary/
+(its not working for me and im not sure how to fix it)
 
 This week, our assignment was to make a webpage with javascript interaction elements. 
 I decided to make a little travel diary, initially with two image galleries and a “comment section” similar to the to do list example.
@@ -8,3 +9,4 @@ I followed a youtube tutorial to make the gallery, but used swiper.js for it so 
 
 ## Wireframes
 Here's my inital wireframe:
+  <img src="images/wireframe.png" width="350">
