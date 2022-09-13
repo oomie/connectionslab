@@ -1,5 +1,6 @@
 ## Travel Diary
 ### Homework Week2 - Javascript interaction 
+Webpage link: https://oomie.github.io/connectionslab/traveldiary/
 
 This week, our assignment was to make a webpage with javascript interaction elements. 
 I decided to make a little travel diary, initially with two image galleries and a “comment section” similar to the to do list example.
