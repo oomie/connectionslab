@@ -10,7 +10,7 @@ I followed a youtube tutorial to make the gallery, but used swiper.js for it so 
 ## Wireframes
 Here's my inital wireframe:
 
-  <img src="images/wireframe.png" width="350">
+  <img src="images/wireframe.png" width="40%">
   
   As you can see, my initial plan is quite different from the final product - there were two image galleries and a comment section here, but after a few hours of coding, that didn't work out so I went back to the drawing board and came up with this wireframe:
   
