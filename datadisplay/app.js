@@ -1,5 +1,7 @@
 window.addEventListener('load', () => {
     console.log('page is loaded');
+    
+    //basically just getting a random activity from each type. the api randomizes it for you!
 
     let recreational = document.getElementById('recreational');
     recreational.addEventListener('click', () => {
