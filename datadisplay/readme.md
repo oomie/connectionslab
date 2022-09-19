@@ -12,7 +12,7 @@ The API documentaion contains a list of 9 activity types, so I made a button for
 My initial idea was to make a website that suggested a movie to you based on the genre, however I could not figure out how to use any of the movie APIs that I found :( So I ended up looking for other options and found the Bored API --instead of suggesting movies it suggests activities. 
 
 ## Next Steps
-Now, I need to think about how to incorporate p5.js into this concept, and I think I will utilize it to make the website feel more interactive and visually appealing. Instead of plain text buttons, I might make them into images or something of that sort.
+Now, I need to think about how to incorporate p5.js into this concept, and I think I will utilize it to make the website feel more interactive and visually appealing. Instead of plain text buttons, I might make them into images or something of that sort. I also might look into the other information stored in the API, such as cost and accessibility of the activities, to use in my final site. 
 
 ## Conclusion
 I'm looking forward to making more progress on this project soon, making a (hopefully) useful website.
