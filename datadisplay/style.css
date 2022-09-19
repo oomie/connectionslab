@@ -1,1 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap');
 
+body {
+    background-color: lavenderblush;
+    font-family: 'Indie Flower', cursive;
+}
+
+.heading{
+    text-align: center;
+    margin: 50;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
