@@ -54,3 +54,11 @@ button{
     padding: 20px;
     cursor: pointer;
 }
+button:hover{
+    border: none;
+    background-color: #d38a8d;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
