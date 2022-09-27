@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
 
     let recreational = document.getElementById('recreational');
     recreational.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=recreational")
+        fetch("https://www.boredapi.com/api/activity?type=recreational")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -17,7 +17,7 @@ window.addEventListener('load', () => {
 
     let education = document.getElementById('education');
     education.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=education")
+        fetch("https://www.boredapi.com/api/activity?type=education")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -28,7 +28,7 @@ window.addEventListener('load', () => {
 
     let social = document.getElementById('social');
     social.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=social")
+        fetch("https://www.boredapi.com/api/activity?type=social")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -39,7 +39,7 @@ window.addEventListener('load', () => {
 
     let diy = document.getElementById('diy');
     diy.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=diy")
+        fetch("https://www.boredapi.com/api/activity?type=diy")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -50,7 +50,7 @@ window.addEventListener('load', () => {
     
     let charity = document.getElementById('charity');
     charity.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=charity")
+        fetch("https://www.boredapi.com/api/activity?type=charity")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -61,7 +61,7 @@ window.addEventListener('load', () => {
     
     let cooking = document.getElementById('cooking');
     cooking.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=cooking")
+        fetch("https://www.boredapi.com/api/activity?type=cooking")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -72,7 +72,7 @@ window.addEventListener('load', () => {
      
     let relaxation = document.getElementById('relaxation');
     relaxation.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=relaxation")
+        fetch("https://www.boredapi.com/api/activity?type=relaxation")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -83,7 +83,7 @@ window.addEventListener('load', () => {
 
     let music = document.getElementById('music');
     music.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=music")
+        fetch("https://www.boredapi.com/api/activity?type=music")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
@@ -94,7 +94,7 @@ window.addEventListener('load', () => {
 
     let busywork = document.getElementById('busywork');
     busywork.addEventListener('click', () => {
-        fetch("http://www.boredapi.com/api/activity?type=busywork")
+        fetch("https://www.boredapi.com/api/activity?type=busywork")
         .then(response => response.json())
             .then(data => {
                 let nameelement = this.document.getElementById("activity-name");
