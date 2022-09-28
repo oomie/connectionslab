@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script> -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
     <title>activity finder!</title>
 </head>
 <body>
-    <audio id="ding">
-        <source src="ding.mp3" type="audio/mpeg" display="none">
+    <audio id="pop" >
+        <source src="pop.mp3" type="audio/mpeg" display="none">
+        </audio>
+
+        <audio id="bling">         
+            <source id="bling" src="Bling.mp3" type="audio/mpeg" display="none">
         </audio>
 
     <div class="container">
@@ -37,19 +42,19 @@
             </div>
             
             <div class="activity-info">
-              <h3> your activity is: </h3>  
-              <h3><span id="activity-name"> </span> </h3>
+              <h2> your activity is: </h2>  
+              <h2><span id="activity-name"> </span> </h2>
             </div>        </section>
 
         <section class="three">
             <h1> still not sure of what to do? </h1>
             <button id="random" > wild card! </button>
-            <h3 id="randomtextappear">your random activity is: </h3>
-            <h3><span id="random-activity"></span> </h3>      
+            <h2 id="randomtextappear">your random activity is: </h2>
+            <h2><span id="random-activity"></span> </h2>      
         </section>
 
         <section class="four">
-            <h1> hope you're not bored anymore! </h1>
+            <h2> try out all the categories and keep track here! </h2>
         </section>
 
     
