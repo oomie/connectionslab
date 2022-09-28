@@ -2,7 +2,8 @@ window.addEventListener('load', () => {
     console.log('page is loaded');
 
     //audio effect:
-    let ding = document.getElementById("ding");
+    let pop = document.getElementById("pop");
+    let bling = document.getElementById("bling");
 
     let recreational = document.getElementById('recreational');
     recreational.addEventListener('click', () => {
@@ -12,7 +13,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
 
     let education = document.getElementById('education');
@@ -23,7 +24,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
 
     let social = document.getElementById('social');
@@ -34,7 +35,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
 
     let diy = document.getElementById('diy');
@@ -45,7 +46,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
     
     let charity = document.getElementById('charity');
@@ -56,7 +57,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
     
     let cooking = document.getElementById('cooking');
@@ -67,7 +68,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
      
     let relaxation = document.getElementById('relaxation');
@@ -78,7 +79,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
 
     let music = document.getElementById('music');
@@ -89,7 +90,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
         })
 
     let busywork = document.getElementById('busywork');
@@ -100,7 +101,7 @@ window.addEventListener('load', () => {
                 let nameelement = this.document.getElementById("activity-name");
                 nameelement.innerHTML = data.activity;
             })
-            ding.play();
+            pop.play();
     })
 
     let randomtextappear = document.getElementById("randomtextappear");
@@ -116,11 +117,20 @@ window.addEventListener('load', () => {
                 nameelement.innerHTML = data.activity;
             })
             randomtextappear.style.display = "flex";
-            ding.play();
+            bling.play();
 
     })
 
-    
+// //p5:
+// function setup() {
+//     createCanvas(window.four.innerWidth, window.four.innerHeight);
+//   }
+
+//   function draw() {
+//     background(100,124,34);
+//     circle(100,100,100);
+//   }  
+
 
 }) //end
 
