@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>activity finder!</title>
+</head>
+<body>
+    <audio id="popsound" >
+        <source src="pop.mp3" type="audio/mpeg" display="none">
+        </audio>
+
+        <audio id="bling">         
+            <source id="bling" src="Bling.mp3" type="audio/mpeg" display="none">
+        </audio>
+
+    <div class="container">
+        <section class="one">
+            <h1> bored? </h1>
+            <h2>looking for something to do?</h2>
+            <h3>keep scrolling.. </h3>
+        </section> 
+
+        <section class="two">
+            <h1>pick a type of activity!</h1>
+            <div class="types">
+                <!-- types taken from the documentation of the api -->
+                <img id="recreational" src="images/type0.PNG"  width="120px" height="120px" alt="">
+                <img id="education"  src="images/type1.PNG"   width="120px" height="120px" alt="">
+                <img id="social" src="images/type2.PNG"   width="120px" height="120px" alt=""> 
+                <img id="diy" src="images/type3.PNG"  width="120px" height="120px"  alt=""> 
+                <img id="charity" src="images/type4.PNG"  width="120px" height="120px" alt=""> 
+                <img id="cooking" src="images/type5.PNG"  width="120px" height="120px" alt=""> 
+                <img id="relaxation" src="images/type6.PNG"  width="120px" height="120px" alt="">
+                <img id="music" src="images/type7.PNG"  width="120px" height="120px" alt="">
+                <img id="busywork" src="images/type8.PNG"  width="120px" height="120px" alt="">
+            </div>
+            
+            <div class="activity-info">
+              <h2> your activity is: </h2>  
+              <h2><span id="activity-name"> </span> </h2>
+            </div>        </section>
+
+        <section class="three">
+            <h1> still not sure of what to do? </h1>
+            <img  id="random" class="random"  src="images/random.png" width="400px" height="400px" alt="">
+            <h2 id="randomtextappear">your random activity is: </h2>
+            <h2><span id="random-activity"></span> </h2>   
+        </section>
+
+        <!-- <section class="four">
+            <p id="name"></p>
+            <div class="container" id="container"></div>
+        </section> -->
+
+    
+    </div>
+
+</body>
+</html>
