@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@200&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
-.container{
+.container {
+    /* each section snaps to the screen when you scroll */
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
 }
 
-section { 
+section {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -22,43 +23,31 @@ section {
     scroll-snap-align: start;
 }
 
-h1{
+h1 {
     color: black;
     font-family: 'Indie Flower', cursive;
     font-size: 70px;
 }
 
-.one{
+.one {
     background-color: plum;
 }
 
-.two{
-    background-color: rgb(97, 180, 235);
+.two {
+    background-color: rgb(255, 243, 199);
 }
 
-.three{
+.three {
     background-color: lightpink;
     flex-direction: column;
 }
 
-.four{
-    background-color: rgb(162, 172, 252);
-}
-
-
-img:hover{
-height: 140px;
-width: 140px;   
-}
-
-.random:hover{
+.random:hover {
     height: 420px;
     width: 420px;
 }
 
-.activity-info{
-    background-color:#fcf1a7;
+.activity-info {
     padding: 20px;
     bottom: -100px;
 }
-
