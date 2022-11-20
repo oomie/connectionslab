@@ -3,6 +3,7 @@
 ## Concept
 I was looking through the Javascript libraries that we went through in class, and I thought leaflet would be interesting to try out. 
 While I was in Switzerland over the summer, my sisters and I were laughing about the fact that we have probably seen more of Switzerland than our own country..
+
 So, my idea was to make an interactive map of Switzerland with pins to show the places I've been to with litte bits of info about each place. 
 
 ## Process and Challenges
