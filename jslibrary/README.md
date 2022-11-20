@@ -1,5 +1,7 @@
 # JS Library Front-end site: Interactive map of Switzerland 
 
+### [Live Site](https://oomie.github.io/connectionslab/jslibrary/)
+
 ## Concept
 I was looking through the Javascript libraries that we went through in class, and I thought leaflet would be interesting to try out. 
 While I was in Switzerland over the summer, my sisters and I were laughing about the fact that we have probably seen more of Switzerland than our own country..
