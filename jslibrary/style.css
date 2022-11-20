@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body {
+    display: flex;
+    background-color: lightskyblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+#map { 
+    height: 500px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+h4 {
+    line-height: 0.1;
+}
