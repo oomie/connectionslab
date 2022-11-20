@@ -29,7 +29,7 @@ map.on('click', onMapClick);
 It is now commented out as I do not think its needed in my site, but I left it in the code just to refer to, as it was part of the process.
 
 The popups were very easy to add to each pin using ```bindPopup()``` which is a leaflet command that allows the popup to show when you click the pin.
-
+<img width="1143" alt="pin" src="https://user-images.githubusercontent.com/90758596/202908043-1e585396-0209-41e4-aa3b-7036a4bc576f.png">
 
 ## Next Steps
 I will try to explore more of Leaflet's capabilities in the future as well as look into the other libraries and see which would fit my final project the best.
