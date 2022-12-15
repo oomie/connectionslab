@@ -6,7 +6,7 @@ toomie's repo for Connections Lab, Fall 2022!
 
 * [Project 1: Activity Finder](https://oomie.github.io/connectionslab/project-1/)
 
-* [Project 2 repo: Bulletin Doodles](https://github.com/oomie/CLproject2)
+* [Project 2 Repo: Bulletin Doodles](https://github.com/oomie/CLproject2)
 
 * [Final Project Repo: Campus Garden](https://github.com/oomie/CLfinal)
 
